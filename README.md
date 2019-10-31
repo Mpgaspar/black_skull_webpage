@@ -57,3 +57,5 @@ D: Structuring in HTML = 10h
 E: CSS styling = 6h  
 F: JavaScript functions = 6h 
 G: Test = 2h
+
+
