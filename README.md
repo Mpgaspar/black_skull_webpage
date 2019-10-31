@@ -20,7 +20,7 @@ List of tasks to be performed:
 14. Documentation about the tools used in the project
 
 # 01 
-Priority (1-3)
+Priority (1-3) 1- low, 2- moderate, 3- high
 A: Organization = 3 
 B: Layout = 2 
 C: Repository in git = 3
@@ -39,7 +39,7 @@ F: JavaScript functions = the magician's part to create user interaction.
 G: Test = test in all browsers but the code has to be tested all the time 
 
 # 03
-Difficulty (1-3)
+Difficulty (1-3) 1- low, 2- moderate, 3- hard
 A: Organization = 1
 B: Layout = 2
 C: Repository in git = 1
