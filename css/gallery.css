@@ -1,0 +1,27 @@
+.photo-album {
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
+    
+}
+
+span#caption {
+    opacity: 0;
+    color:#ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+
+}
+
+.photo-album:hover {
+    -webkit-transform: scale(1.5);
+}
+
+span#caption:hover {
+    opacity: 1;
+}
