@@ -7,6 +7,7 @@
     <title>Black Skull Arena Game</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/css/index.css">
+    <script src="/form.js"></script>
 </head>
 <body>
     <header>
@@ -31,11 +32,11 @@
         </div>
         <div class="row" >
             <div class="col s12 m6 l6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div class="col s12 m6 l6">
-            <p><label for="cName">Name: </label><input type="text" name="tName" id="cName" size="20" maxlength="30" placeholder="Name" /></p>
-            <p><label for="cEmail">Email: </label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="Email" /></p>           
-            <button class="waves-effect waves-light #212121 grey darken-4 btn">SUBMIT</button> 
-            </div>                   
+            <form name="myForm" id="cForm" class=" col s12 m6 l6" onsubmit="validateForm()">
+                <p><label for="cName">Name: </label><input type="text" name="tName" id="cName" size="20" maxlength="30" placeholder="Name"/></p>
+                <p><label for="cEmail">Email: </label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="Email"/></p>
+                <input type="submit" value="Submit" class="waves-effect waves-light #212121 grey darken-4 btn"></submit> 
+            </form>                   
         </div>
     </section>
     <footer class="page-footer footer-copyright black">

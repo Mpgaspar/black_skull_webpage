@@ -7,6 +7,7 @@
     <title>Black Skull Arena Game</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/css/index.css">
+    <script src="/form.js"></script>
 </head>
 <body>
     <header>
@@ -43,12 +44,12 @@
                     <div class="title">Try 30 Days Free Sign In</div>
                     <div class="subtitle">Black Skull is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</div>
                 </div>
-                <div class=" col s12 m6 l6">
-                    <p><label for="cName">Name: </label><input type="text" name="tName" id="cName" size="20" maxlength="30" placeholder="Name" /></p>
-                    <p><label for="cEmail">Email: </label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="Email" /></p>
+                <form name="myForm" id="cForm" class=" col s12 m6 l6" onsubmit="validateForm()">
+                    <p><label for="cName">Name: </label><input type="text" name="tName" id="cName" size="20" maxlength="30" placeholder="Name"/></p>
+                    <p><label for="cEmail">Email: </label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="Email"/></p>
                     <p><label for="cMsg">Message:</label><br/><textarea name="tMsg" id="cMsg" cols="45" rows="5"></textarea></p>
-                    <button class="waves-effect waves-light #212121 grey darken-4 btn">SUBMIT</button> 
-                </div>   
+                    <input type="submit" value="Submit" class="waves-effect waves-light #212121 grey darken-4 btn"></submit> 
+                </form>   
             </section>
              </div>
              </div> 
