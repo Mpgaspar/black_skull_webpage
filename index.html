@@ -7,6 +7,8 @@
     <title>Black Skull Arena Game</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/slide.css">
+    <script src="/slide.js"></script>
 </head>
 <body>
     <section id="home">
@@ -27,7 +29,7 @@
     </header>
 
     <main>
-    <div class="row" >
+    <div class="row">
     <div class="col s12 m6 l6"><h1>Join us in this battle!</h1></div>
     <div class="col s12 m6 l6"></div>
     </div>
@@ -44,30 +46,63 @@
         <div class="col s12 m4 l4"></div>
     </div>
     </section>
-    <section class="conteiner grey">
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/assets/arena_game07.png" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
+                  
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/assets/arena_game08.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
+                  
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/assets/arena_game09.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+               
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>             
+    </div>
+    <br>
+                  
+     <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>                     
+
+    <section>
     <div class="row" >
-      <div class="col s12 m3 l3"><img src="/assets/arena_game08.jpg"></div>
-      <div class="col s12 m3 l3"><img src="/assets/arena_game08.jpg"></div>
-      <div class="col s12 m3 l3"><img src="/assets/arena_game08.jpg"></div>
-      <div class="col s12 m3 l3"><img src="/assets/arena_game08.jpg"></div>
+      <div class="col s12 m3 l3"><a href="/service01.html"><img src="/assets/arena_game08.jpg"></a>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+      </div>
+      <div class="col s12 m3 l3"><a href="/service02.html"><img src="/assets/arena_game08.jpg"></a>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>      
+      </div>
+      <div class="col s12 m3 l3"><a href="/service03.html"><img src="/assets/arena_game08.jpg"></a>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>      
+      </div>
+      <div class="col s12 m3 l3"><a href="/service04.html"><img src="/assets/arena_game08.jpg"></a>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>      
+      </div>
   </div>
-  <div class="row" >
-      <div class="col s12 m3 l3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-      <div class="col s12 m3 l3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-      <div class="col s12 m3 l3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-      <div class="col s12 m3 l3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-    </div>  
   </section>
 </main>
 
 <footer class="page-footer black">
         <div>
-            <div class="container col l4 offset-l2 s12">
+            <div class="container">
               <ul class="row">
-                <li class="col s3 m3 l3"><a href="#!"><img src="/assets/logo_riot.png"></a></li>
-                <li class="col s3 m3 l3"><a href="#!"><img src="/assets/logo_lol.png"></a></li>
-                <li class="col s3 m3 l3"><a href="#!"><img src="/assets/logo_valve.png"></a></li>
-                <li class="col s3 m3 l3"><a href="#!"><img src="/assets/ubisoft.png"></a></li>
+                <li class="col s12 m3 l3"><a href="#!"><img src="/assets/logo_riot.png"></a></li>
+                <li class="col s12 m3 l3"><a href="#!"><img src="/assets/logo_lol.png"></a></li>
+                <li class="col s12 m3 l3"><a href="#!"><img src="/assets/logo_valve.png"></a></li>
+                <li class="col s12 m3 l3"><a href="#!"><img src="/assets/ubisoft.png"></a></li>
               </ul>
             </div>
           </div>
@@ -75,7 +110,7 @@
         <div class="footer-copyright">
           <div class="container row">
           Marcelo Gaspar © 2019 Copyright
-          <div class="right-align">
+          <div class="right-align col s12 m12 l12">
           <a href="#!"><img src="/assets/facebook.png"></a>
           <a href="#!"><img src="/assets/instagram.png"></a>
           <a href="#!"><img src="/assets/twitter.png"></a>
